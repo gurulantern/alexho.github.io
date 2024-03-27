@@ -1,0 +1,146 @@
+/*
+div {
+    border: solid;
+    border-color: red;
+}
+*/
+
+.hero {
+    display: flex;
+    width: 100%
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    width: 100%;
+}
+
+.content {
+    padding: 60px 120px 60px 120px;
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+    grid-template-areas:
+        "welcome welcome welcome home"
+        "welcome welcome welcome home"
+        "intro intro intro intro"
+        "specialty specialty specialty specialty"
+        "goat controller plant location";
+    width: 90%;
+}
+
+.welcome {
+    font-size: 24px;
+    text-align: center;
+    grid-area: welcome;
+    display: flex;
+    padding: 100px 10px 20px 20px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: #ecf791;
+    background-color: #446a87;
+    justify-content: center;
+}
+
+.home {
+    grid-area: home;
+    display: flex;
+    background-color: #00b796;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    grid-area: intro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 1500;
+    letter-spacing: 2px;
+    color: #ecf791;
+    background-color: #f78076;
+}
+
+.specialties {
+    grid-area: specialty;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    color: #ecf791;
+    background-color: #446a87;
+    align-items: center;
+    height: 100px;
+    min-width: 350px;
+    padding: 20px;
+}
+
+.text {
+    font-size: 55px;
+    color: #ecf791;
+    letter-spacing: 3px;
+}
+
+.goat {
+    grid-area: "goat";
+    display: flex;
+    background-color: #f78076;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.controller {
+    grid-area: "controller";
+    display: flex;
+    background-color: #00b796;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.plant {
+    grid-area: "plant";
+    display: flex;
+    background-color: #446a87;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.location {
+    grid-area: location;
+    display: flex;
+    align-items:flex-end;
+    color: #ecf791;
+    background-color: #00b796;
+    padding: 15px;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+}
+
+.homeImg {
+    width:90%;
+}
+
+.goatImg {
+    width: 100%;
+
+}
+
+.controllerImg {
+    width: 100%;
+
+}
+
+.plantImg {
+    width: 100%;
+
+}

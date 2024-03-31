@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
         init(textRef.current, {
             showCursor: false,
             backDelay: 1750,
-            strings: ['Storyteller', 'Developer', 'Designer', 'Educator', 'Gamemaker', 'Writer']
+            strings: ['Storyteller', 'Developer', 'Educator', 'Gamemaker', 'Writer', 'Actor', 'Plant Dad']
         });
     }, []);
   

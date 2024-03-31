@@ -7,9 +7,17 @@ author: You
 ---
 [Portfolio](/portfolio) | [Home](/) | [About](/about) | [Posts](/posts)
 
+[Next: Software Engineering and Design](/portfolio/artifact1)
+
+---
+
+##  Summary
+
+In this code review, I cover the artifacts that I have chosen to enhance for the SNHU portfolio. I discuss the technologies and design patterns used to develop the artifacts. 
+
 <iframe
-width="560"
-  height="315"
+width="640"
+  height="395"
   src="https://www.youtube.com/embed/T5gZTv9eNeQ"
   title="YouTube video player"
   frameborder="0"
@@ -17,7 +25,6 @@ width="560"
   allowfullscreen
 ></iframe>
 
-In this code review, I cover the artifacts that I have chosen to enhance for the SNHU portfolio. I discuss the technologies and design patterns used to develop the artifacts. 
 
 ### [Artifact 1 - Software Engineering and Design](/portfolio/artifact1)
 #### Travlr Full Stack Web Application
@@ -39,3 +46,7 @@ The hash table implementation for ABSU Advising was a C++ program meant to organ
 The myStock inventory mobile application was designed in Android Studio with Java to allow users to track inventory levels for products in their inventory whether it is a warehouse or other business. 
 
 [See more](/portfolio/artifact3)
+
+---
+
+[Next: Software Engineering and Design](/portfolio/artifact1)

@@ -7,3 +7,11 @@ author: You
 ---
 
 [Portfolio](/portfolio) | [Home](/) | [About](/about) | [Posts](/posts)
+
+[Previous: Algorithms & Data Structures](/portfolio/artifact2)
+
+---
+
+---
+
+[Previous: Algorithms & Data Structures](/portfolio/artifact2)

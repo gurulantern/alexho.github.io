@@ -19,7 +19,7 @@ div {
 }
 
 .content {
-    padding: 60px 120px 60px 120px;
+    padding: 60px 0px 60px 0px;
     display: grid;
     justify-content: center;
     gap: 10px;
@@ -38,6 +38,7 @@ div {
     grid-area: welcome;
     display: flex;
     padding: 100px 10px 20px 20px;
+    margin-bottom: 0;
     font-weight: 300;
     letter-spacing: 3px;
     color: #ecf791;
@@ -54,6 +55,7 @@ div {
 }
 
 .intro {
+    margin: 0;
     grid-area: intro;
     display: flex;
     justify-content: center;
@@ -68,6 +70,7 @@ div {
 }
 
 .specialties {
+    margin: 0;
     grid-area: specialty;
     display: flex;
     justify-content: center;
@@ -120,6 +123,7 @@ div {
     align-items:flex-end;
     color: #ecf791;
     background-color: #00b796;
+    margin: 0;
     padding: 15px;
     font-size: 1.5rem;
     letter-spacing: 2px;

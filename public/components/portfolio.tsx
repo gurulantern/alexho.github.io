@@ -1,5 +1,5 @@
 import React from 'react';
-import PostList from '../components/postlist';
+import PostList from './postlist';
 
 const posts = [
     { slug: 'codereview', title: 'Code Review' },

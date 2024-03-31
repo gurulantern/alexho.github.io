@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import styles from '../styles/Hero.module.css';
+import styles from '../../styles/Hero.module.css';
 import { init } from 'ityped';
 import React from 'react';
 

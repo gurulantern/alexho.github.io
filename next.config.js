@@ -6,6 +6,8 @@ const withNextra = require("nextra")({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: '/gurulantern.github.io',
+  assetPrefix: '/gurulantern.github.io',
   output: 'export',
   distDir: 'dist',
   images: {

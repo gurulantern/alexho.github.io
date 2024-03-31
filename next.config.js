@@ -6,6 +6,7 @@ const withNextra = require("nextra")({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  exportTrailingSlash: true,
   basePath: '/gurulantern.github.io',
   assetPrefix: '/gurulantern.github.io',
   output: 'export',

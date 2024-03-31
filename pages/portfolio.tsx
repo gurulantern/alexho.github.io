@@ -1,18 +1,32 @@
 import React from 'react';
-import PostList from './postlist';
-
-const posts = [
-    { slug: 'codereview', title: 'Code Review' },
-    { slug: 'artifact1', title: 'Software Design and Engineering' },
-    { slug: 'artifact2', title: 'Algorithms & Data Structures' },
-    { slug: 'artifact3', title: 'Databases' },
-];
+import Link from 'next/link';
 
 const Portfolio: React.FC = () => {
   return (
     <div>
       <h3>SNHU Portfolio</h3>
-      <PostList posts={posts} />
+      <ol type="I">
+          <li key="codereview">
+            <Link href='/portfolio/codereview'>
+                Code Review
+            </Link>
+          </li>
+          <li key="artifact1">
+            <Link href='/portfolio/artifact1'>
+              Software Design and Engineering
+            </Link>
+          </li>
+          <li key="artifact2">
+            <Link href='/portfolio/artifact2'>
+              Algorithms & Data Structures
+            </Link>
+          </li>
+          <li key="artifact3">
+            <Link href='/portfolio/artifact3'>
+              Databases
+            </Link>
+          </li>
+      </ol>
     </div>
   );
 };

@@ -72,11 +72,11 @@ To start, I had to adjust my scope for the enhancement as this database helper r
 
 I enjoyed this part of development the most as I got to learn more about the technologies we could use in Android development. Specifically, I had most of my fun learning a third-party data charting repo that I used called MPAndroidChart. This repo had its own challenges as the documentation is fairly thorough which meant there was a lot more to read and more to try out. In the end, I was able to create database queries that could populate a pie chart with item names and quantities. 
 
-![myStock Main](/images/myStock_pie.jpg)
+![myStock Piechart](/images/myStock_pie.jpg)
 
 The history activity took some time to implement as I was spending most of my time making it able to filter for searches but I decided that I would rather focus on making sure that the queries to the database worked and displayed the correct information.  Even though I did not get to implement all of the enhancements intended for this specific feature, this activity works and is a great foundation for further enhancement later on down the line. Currently, it queries the database for all the actions in an inventory table’s history table. It then displays each history item from a list with a name, an action string, and a timestamp.
 
-![myStock Main](/images/myStock_history.jpg)
+![myStock History](/images/myStock_history.jpg)
 
 
 ### Outcomes Achieved

@@ -6,15 +6,15 @@ tag: web development
 author: You
 ---
 
-[Portfolio](/portfolio) | [Home](/) | [About](/about) | [Posts](/posts)
+[**Portfolio**](/portfolio) | [**Home**](/) | [**About**](/about) | [**Posts**](/posts)
 
-[Previous: Code Review](/portfolio/codereview) | [Next: Algorithms & Data Structures](/portfolio/artifact2)
+[**Previous: Code Review**](/portfolio/codereview) | [**Next: Algorithms & Data Structures**](/portfolio/artifact2)
 
 ---
 
 ## Development Narrative
 
-[Link to Github Repository](https://github.com/gurulantern/cs465-fullstack/tree/cs499-enhancement)
+[**Link to Github Repository**](https://github.com/gurulantern/cs465-fullstack/tree/cs499-enhancement)
 
 For the first artifact, I have chosen the MEAN stack application that I worked on in CS 465 Full Stack Development I. The application uses Node.js as a server, Express as an application framework, MongoDB as the database, and Angular for the single-page admin application. 
 
@@ -209,8 +209,8 @@ This was a challenging and fun project to work on. I learned a lot about the arc
 - By thoroughly documenting the code with inline comments, a ReadMe and headers for each code file, I prepared the codebase for future developers to pick up the code and improve spots where needed. Each header for the code file includes metadata for the code file including its general purpose. 
 
 
-[Link to Github Repository](https://github.com/gurulantern/cs465-fullstack/tree/cs499-enhancement)
+[**Link to Github Repository**](https://github.com/gurulantern/cs465-fullstack/tree/cs499-enhancement)
 
 ---
 
-[Previous: Code Review](/portfolio/codereview) | [Next: Algorithms & Data Structures](/portfolio/artifact2)
+[**Previous: Code Review**](/portfolio/codereview) | [**Next: Algorithms & Data Structures**](/portfolio/artifact2)

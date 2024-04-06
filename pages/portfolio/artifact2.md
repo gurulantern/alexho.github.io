@@ -2,19 +2,19 @@
 title: ABC University Hash Table Implementation with Rust
 date: 2024/3/26
 description: Category Two Artifact of the SNHU CS Portfolio
-tag: data structures
+tag: data structures, rust, hash table
 author: You
 ---
 
-[Portfolio](/portfolio) | [Home](/) | [About](/about) | [Posts](/posts)
+[**Portfolio**](/portfolio) | [**Home**](/) | [**About**](/about) | [**Posts**](/posts)
 
-[Previous: Software Engineering and Design](/portfolio/artifact1) | [Next: Databases](/portfolio/artifact3)
+[**Previous: Software Engineering and Design**](/portfolio/artifact1) | [**Next: Databases**](/portfolio/artifact3)
 
 ---
 
 ## Development Narrative
 
-[Link to Github Repository](https://github.com/gurulantern/abcu-rust)
+[**Link to Github Repository**](https://github.com/gurulantern/abcu-rust)
 
 For the second artifact, I have chosen a hash table implementation to organize and store course information for an office of academic advising. We were asked to choose an appropriate data structure for this task in CS 300. I chose the hash table data structure because most algorithms used to handle the data have a worst-case O(n) time complexity when it comes to checking each node in a linked list. Here are the following time complexities for the functions used by the hash table:
 
@@ -182,9 +182,9 @@ These features avoid issues with dangling pointers or null pointer dereferences.
 
 - Learning Rust for development is a step towards mitigating design flaws and enhancing the security of the project. Rust’s built in features which include the lifetime system and ownership system ensure that programs built in Rust are memory safe.  Memory safety is a leading cause of security vulnerabilities and programming languages like C/C++ require developers to manually manage memory safely. Rust handles this for us as the compiler will throw errors for any unsafe uses of memory.
 
-[Link to Github Repository](https://github.com/gurulantern/abcu-rust)
+[**Link to Github Repository**](https://github.com/gurulantern/abcu-rust)
 
 ---
 
 
-[Previous: Software Engineering and Design](/portfolio/artifact1) | [Next: Databases](/portfolio/artifact3)
+[**Previous: Software Engineering and Design**](/portfolio/artifact1) | [**Next: Databases**](/portfolio/artifact3)

@@ -20,7 +20,7 @@ For the third artifact, I chose an inventory management mobile application that 
 
 I chose this project to display my versatility in terms of programming. Both of the previous artifacts showcase my ability to learn in different architectures and with different technologies. This enhancement continues this trend by demonstrating my ability to carry over my skills to any development environment. My goal for the enhancement was to add a history feature where users could view the history of actions taken on items in their database and a data visualization feature. Both of these features require more database interaction than the unenhanced artifact.
 
-![myStock Main](/images/myStock_main.jpg)
+![myStock Main](/images/mystock_main.jpg)
 
 Upon starting the enhancement, I realized that my previous iteration of the user database needed a major overhaul as it was far from secure. The issue was that the SQLiteOpenHelper would only create one database with the necessary tables on the phone resulting in all users being able to see the same inventory table when logging in. The intention was for each user to have their own inventory table to manage. This meant that I needed to redesign the registration method so that each user had their own individual inventory and history tables.
 
@@ -72,11 +72,11 @@ To start, I had to adjust my scope for the enhancement as this database helper r
 
 I enjoyed this part of development the most as I got to learn more about the technologies we could use in Android development. Specifically, I had most of my fun learning a third-party data charting repo that I used called MPAndroidChart. This repo had its own challenges as the documentation is fairly thorough which meant there was a lot more to read and more to try out. In the end, I was able to create database queries that could populate a pie chart with item names and quantities. 
 
-![myStock Piechart](/images/myStock_pie.jpg)
+![myStock Piechart](/images/mystock_pie.jpg)
 
 The history activity took some time to implement as I was spending most of my time making it able to filter for searches but I decided that I would rather focus on making sure that the queries to the database worked and displayed the correct information.  Even though I did not get to implement all of the enhancements intended for this specific feature, this activity works and is a great foundation for further enhancement later on down the line. Currently, it queries the database for all the actions in an inventory table’s history table. It then displays each history item from a list with a name, an action string, and a timestamp.
 
-![myStock History](/images/myStock_history.jpg)
+![myStock History](/images/mystock_history.jpg)
 
 
 ### Outcomes Achieved

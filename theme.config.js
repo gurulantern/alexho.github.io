@@ -4,30 +4,13 @@ const YEAR = new Date().getFullYear();
 
 export default {
   logo: (
-    <>
-      <img 
-        src='/images/Water Emblem.png'
-        alt='Logo'
-        width={75}
-        height={75}
-      />
-    </>
+    <img 
+      src='/images/Water Emblem.png'
+      alt='Logo'
+      width={75}
+      height={75}
+    />
   ),
-  navbar: {
-    component: (
-      <>
-        <Link href="/">
-          <a>Home</a>
-        </Link>
-        <Link href="/about">
-          <a>About</a>
-        </Link>
-        <Link href="/portfolio">
-          <a>Portfolio</a>
-        </Link>
-      </>
-    )
-  },
   footer: (
     <footer>
       <small>

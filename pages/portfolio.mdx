@@ -1,13 +1,150 @@
 ---
 type: page
 title: Portfolio
-date: 2024-03-27
+date: 2024-04-08
 ---
 
 import Portfolio from '../components/portfolio';
 import Links from '../components/links';
+import SideBySideImages from '../components/sidebyside';
 
-This is where my professional assessment will go.
+## Professional Self-Assessment
 
-<Portfolio />
+My journey into the field of computer science began in 2020 when I began the self-taught path to learn how to code. 
+On that self-taught path, I accomplished a lot more than I thought I could. 
+
+During this time, I also worked as a Tech Support specialist for an EdTech company and started to use my coding skills to benefit the organization. 
+This included several company sanctioned projects:
+
+- A documentation migration from Notion into a Docusaurus MDX site
+- Winning approval for a Slack application I designed that could facilitate teacher requests for substitutes and the equitable assignment for these opportunities
+- A Hubspot automation to reduce friction to notifying parents of their child’s technical difficulties.
+
+Throughout these projects, I realized that I loved designing and implementing these solutions and seeing how these solutions could make the lives of others a little bit easier. 
+But despite these accomplishments, there were still holes in my understanding of the technologies I was wielding. 
+
+Completing the SNHU Computer Science program rebuilt and strengthened my foundation in computer science to increase my longevity in this field. Many of the courses in the program attributed to my current skill set. 
+
+### Collaboration
+
+CS-330 was one of the most challenging courses for me as it required the knowledge gained from linear algebra, 
+the debugging skills accumulated over the course of the degree, and the patience to design a 3D model replica of a scene of our choice. 
+I had not realized the challenge I had made for myself by choosing the scene I did but I am particularly proud of how the _Plantopedia_ book rendered out. 
+
+<SideBySideImages
+    leftImage={{
+        src: '/images/scene.jpg',
+        alt: 'Scene',
+        caption: 'Scene'
+    }}
+    rightImage={{
+        src: '/images/scene_model.jpg',
+        alt: 'Scene Recreation',
+        caption: 'Scene Recreation'
+    }}
+/>
+
+Much of my work on this project required outside help and collaboration. 
+I learned a lot from some fellow students about how to debug the rendering of these models using [RenderDoc](https://renderdoc.org/), which was not mentioned in any of the resources for the course. 
+Being able to communicate these issues and what I have already done to troubleshoot got me acquainted with how to collaborate on difficult technical issues with others. 
+This work also gave me a newfound respect for the work many talented artists put into computer generated graphics in the days before Blender and Maya, which require their own hard earned skills.
+
+### Communication
+
+One of the holes in my understanding that I wanted to address from my self-taught journey was my understanding of the software development life cycle (SDLC) 
+and system design. Much of my work in these courses required development of soft skills that I could not work upon before. 
+
+I practiced communicating technical concepts for a non-technical audience and outlining my needs as a developer to product owners in order to meet requirements. 
+This included writing software design documents and listing requirements for different features to ensure that all stakeholders are happy with the progress that 
+is made on the project. See an example of correspondence below:
+
+> *Dear Christy,*
+>
+> *After hearing about the new changes to the requirements for our project, it would be beneficial for the development team to know more about the features that will meet these requirements.* 
+> *We will also need to know the updated timeline and which features from the previous set of requirements will stay on our product backlog. If you can include the updated priority for these features, that will also help us give the customer an initial estimation on when these features will be completed.* 
+>
+> *Once I know more about these new requirements, we can also continue discussion on possible challenges for the remainder of our development time. Thank you for your hard work on this! I’m excited to hear more about this from you.* 
+>
+> *Best*
+>
+> *Alex*
+
+My communication goals when in a workplace are to ensure that anyone receiving my communications will understand my needs, boundaries, and that even in disagreement,
+I respect them as a team member. A work environment can be stressful in different stages of development and I believe that keeping communications cordial and purposeful 
+contributes to productivity and morale. 
+
+### Data Structures and Algorithms
+
+To build performant applications, understanding time complexities inherent to certain algorithms and data structures is essential. 
+Many of the current programming languages come with data structures and sorting algorithms without the need for us to design them. 
+But learning about these more fine grain data structures and algorithms in C++ helped me understand how to design larger algorithms and designing other structures for different purposes. 
+
+My algorithmic thinking has improved since I began to learn about data structures and algorithms, which you can see in my [Sub-Finder Slack
+application](https://github.com/gurulantern/sub-finder).  This application uses the Slack API to publish substitution requests for
+for teachers on a Slack workspace. These requests collect emoji reactions from interested teachers willing to substitute and 
+compare them to the amount of times they have already substituted. This feauture was an algorithm designed to choose teachers who
+had not had the opportunity to substitute yet if there was one in the mix, otherwise it would choose a teacher at random. Once assigned
+the Slack application would send a message to the teacher and ask them to confirm their substitution.
+
+### Software Engineering and design
+
+My focus in my career is to work on games in EdTech which utilize multiplayer frameworks to allow for a number of students
+to collaborate and compete with one another. The computer science program has taught me so much about the process of 
+designing and planning these complicated architectures. So much so that I prefer to visualize the design of the games I am working on so
+that I can follow the logic and make sure the game functions as intended.
+
+This knowledge of design ultimately helps me digest and comprehend other design choices in new projects that I join and 
+aim to contribute to. 
+
+### Security
+
+Cybersecurity has become a large part of our lives and is a topic that I have been interested in for a while. 
+During my time in the computer science program, I learned about the importance of security and how to implement it. We studied different cybersecurity concepts such as encryption, authentication, and authorization.
+In CS 305, we developed a security plan for a financial web application. This included generating a certificate so the application could be accessed securely through HTTPS,
+and detailing a dependency-check report for the application. 
+
+Below you can see the certificate I generated for the application using keytool:
+
+![Certificate](/images/certificate.jpg)
+
+Phishing and false links can have devastating effects on users if they are not careful so it is important to 
+make sure that web applications use HTTPS to verify that they are communicating with the right address.
+
+## Portfolio
+
+The creation of this portfolio was a great way to showcase my skills and knowledge as I had to learn on-the-go for most of the
+enhancements as these features were not covered in the courses beforehand. All of the enhancements and this portfolio site itself
+required a lot of research and experimentation to get the functionality I wanted.
+
+### [Code Review](/portfolio/codereview)
+
+Here you can find a video of me reviewing the code for each of the artifacts enhanced in this portfolio to demonstrate my skills.
+You can continue to navigate to the different artifacts below from the Code Review page.
+
+[**See more**](/portfolio/codereview)
+
+### [Artifact 1 - Software Engineering and Design](/portfolio/artifact1)
+#### Travlr Full Stack Web Application
+
+The Travlr App is a full stack web application I developed using a MEAN Stack (MongoDB, Express, Angular, and Node.js). 
+It is a travel booking application that allows users to search for trip packages to book flights and hotels. For this enhancement, I added new API methods and login capabilities for the client-facing Express site.
+
+[**See more**](/portfolio/artifact1)
+
+### [Artifact 2 - Algorithms and Data Structures](/portfolio/artifact2)
+#### Hash Table Implementation for ABCU Advising
+
+The hash table implementation for ABSU Advising was a C++ program meant to organize course data by hashing course numbers and storing course prerequisite data into nodes. 
+The program allows users to search for courses and see the prerequisites needed to take the course. For this enhancement, I ported the program to the Rust programming language for safer memory management. 
+
+[**See more**](/portfolio/artifact2)
+
+### [Artifact 3 - Databases](/portfolio/artifact3)
+#### myStock Inventory Mobile Application
+
+The myStock inventory mobile application was designed in Android Studio with Java to allow users to track inventory levels for products in their inventory whether it is a warehouse or other business. 
+For this enhancement, I redesigned the database as it was not securely implemented and I added a data visualization activity and history activity. 
+
+[**See more**](/portfolio/artifact3)
+
 <Links />

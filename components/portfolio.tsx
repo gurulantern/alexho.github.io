@@ -11,7 +11,6 @@ const posts = [
 const Portfolio: React.FC = () => {
   return (
     <div>
-      <h3>SNHU Portfolio</h3>
       <PostList posts={posts} />
     </div>
   );

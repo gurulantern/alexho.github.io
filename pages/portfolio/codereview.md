@@ -7,13 +7,18 @@ author: You
 ---
 [**Portfolio**](/portfolio) | [**Home**](/) | [**About**](/about) | [**Posts**](/posts)
 
-[**Next: Software Engineering and Design**](/portfolio/artifact1)
+[**Previous: Professional Self-Assessment**](/portfolio) | [**Next: Software Engineering and Design**](/portfolio/artifact1)
 
 ---
 
 ##  Summary
 
 In this code review, I cover the artifacts that I have chosen to enhance for the SNHU portfolio. I discuss the technologies and design patterns used to develop the artifacts, and my plans to enhance the projects in order to meet the designated outcomes of the degree.
+
+This review demonstrates my ability to communicate about the underlying technologies in my projects, and meets one of the designated outcomes:
+
+**Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts**
+
 
 <iframe
 width="640"
@@ -24,7 +29,6 @@ width="640"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen
 ></iframe>
-
 
 ### [Artifact 1 - Software Engineering and Design](/portfolio/artifact1)
 #### Travlr Full Stack Web Application
@@ -49,4 +53,4 @@ The myStock inventory mobile application was designed in Android Studio with Jav
 
 ---
 
-[**Next: Software Engineering and Design**](/portfolio/artifact1)
+[**Previous: Professional Self-Assessment**](/portfolio) | [**Next: Software Engineering and Design**](/portfolio/artifact1)

@@ -25,21 +25,6 @@ export default {
     </footer>
   ),
   navs: [
-    {
-      url: 'https://gurulantern.github.io/',
-      name: 'Home'
-    },
-    {
-      url: 'https://gurulantern.github.io/about',
-      name: 'About'
-    },
-    {
-      url: 'https://gurulantern.github.io/portfolio',
-      name: 'School Portfolio'
-    },
-    {
-      url: 'https://gurulantern.github.io/summerhell-survivor',
-      name: 'Game 1'
-    },
+
   ]
 };
